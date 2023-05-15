@@ -50,7 +50,6 @@ input {
 }
 
 .dom-msg {
-    /* TODO: Remove border before project is done, its just there so I can sde it! */
     border: 1px solid blue;
     width: 90%;
     height: 50px;
