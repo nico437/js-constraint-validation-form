@@ -55,3 +55,28 @@ input {
     height: 50px;
     margin-top: 20px;
 }
+
+/* Validation CSS Begins */
+#email:invalid, #country:invalid, #zip:invalid, #pw:invalid, #conf-pw:invalid {
+    background-color: #fdd;
+}
+
+#email:focus:invalid, #country:focus:invalid, #zip:focus:invalid, #pw:focus:invalid, #conf-pw:focus:invalid {
+    background-color: none;
+}
+
+.error-msgs {
+    width: 100%;
+    padding: 0;
+    font-size: 80%;
+    color: white;
+    background-color: #900;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+}
+
+.error-msgs.active {
+    padding: 0.3em;
+}
+
+/* Valdiation CSS Ends */
